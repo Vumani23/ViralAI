@@ -1,0 +1,14 @@
+{
+  "name": "viralai-content-factory",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0"
+  },
+  "scripts": {
+    "check": "node --check lib/server.js && node --check api/config.js && node --check api/oauth.js && node --check api/connections.js && node --check api/post.js"
+  }
+}
